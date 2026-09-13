@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://2etbpetpyreu"]
+
+[ext_resource type="Texture2D" uid="uid://c17wvq4ta81yj" path="res://assets/images/fb435.png" id="1_8txok"]
+[ext_resource type="Script" uid="uid://cxr6n5h3uvsbq" path="res://food.gd" id="1_pohk7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8txok"]
+radius = 11.0
+
+[node name="Food" type="Area2D" unique_id=1652138172 groups=["foods"]]
+collision_layer = 2
+collision_mask = 0
+monitoring = false
+script = ExtResource("1_pohk7")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=668909558]
+texture_filter = 1
+position = Vector2(0, -4)
+texture = ExtResource("1_8txok")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1207230984]
+shape = SubResource("CircleShape2D_8txok")

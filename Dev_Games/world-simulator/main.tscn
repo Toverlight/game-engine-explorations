@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dss34cg4qpvqd"]
+
+[ext_resource type="Script" uid="uid://dw78ceq2fnnjb" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://op3d7tnjpjs1" path="res://small_fish.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://2etbpetpyreu" path="res://food.tscn" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://b0l6bniho5ipb" path="res://big_fish.tscn" id="3_lquwl"]
+[ext_resource type="Script" uid="uid://bfkyu0elkhijw" path="res://camera_control.gd" id="4_1bvp3"]
+
+[node name="Main" type="Node2D" unique_id=2143318125]
+script = ExtResource("1_0xm2m")
+small_fish_scene = ExtResource("1_ig7tw")
+big_fish_scene = ExtResource("3_lquwl")
+food_scene = ExtResource("2_h2yge")
+
+[node name="BackgroundLayer" type="CanvasLayer" parent="." unique_id=1872683117]
+layer = -100
+
+[node name="ColorRect" type="ColorRect" parent="BackgroundLayer" unique_id=1059825595]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0.37216654, 0.7282689, 1)
+
+[node name="ReportTimer" type="Timer" parent="." unique_id=1800898901]
+autostart = true
+
+[node name="MainCamera" type="Camera2D" parent="." unique_id=490754592]
+script = ExtResource("4_1bvp3")
+
+[connection signal="timeout" from="ReportTimer" to="." method="_on_report_timer_timeout"]

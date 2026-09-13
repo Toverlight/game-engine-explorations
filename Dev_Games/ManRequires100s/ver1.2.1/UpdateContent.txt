@@ -1,0 +1,7 @@
+Version 1.2.1 <=< 1.2
+Additions:
+None
+Fixes:
+1.障碍物变得更清楚了！
+Deletions:
+None

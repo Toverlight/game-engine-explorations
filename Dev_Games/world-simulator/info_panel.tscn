@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://mayqvmwhjo54"]
+
+[ext_resource type="Script" uid="uid://cdlxe5axriq5d" path="res://info_panel.gd" id="1_vqjy5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7etpr"]
+bg_color = Color(0.059125952, 0.059125945, 0.059125938, 0.8745098)
+
+[node name="InfoPanel" type="PanelContainer" unique_id=1933013564]
+offset_right = 40.0
+offset_bottom = 40.0
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_7etpr")
+script = ExtResource("1_vqjy5")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=810121786]
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="Title" type="Label" parent="VBoxContainer" unique_id=34738206]
+layout_mode = 2
+text = "TYPE"
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer" unique_id=1096051974]
+layout_mode = 2
+
+[node name="Fields" type="VBoxContainer" parent="VBoxContainer" unique_id=2040187004]
+layout_mode = 2

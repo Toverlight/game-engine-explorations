@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://b0l6bniho5ipb"]
+
+[ext_resource type="Script" uid="uid://co8iqccrbfpiq" path="res://big_fish.gd" id="1_ffjkh"]
+[ext_resource type="Texture2D" uid="uid://bakdhrx37sdld" path="res://assets/images/fb368.png" id="2_l6y4g"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1dk10"]
+radius = 39.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l6y4g"]
+radius = 798.5268
+
+[node name="BigFish" type="Area2D" unique_id=1263698416 groups=["big_fishes"]]
+position = Vector2(-7, 0)
+collision_layer = 8
+collision_mask = 12
+script = ExtResource("1_ffjkh")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=177724337]
+texture_filter = 1
+position = Vector2(-9.999999, 0)
+rotation = 0.7853982
+scale = Vector2(2.9999998, 2.9999998)
+texture = ExtResource("2_l6y4g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=171867013]
+position = Vector2(7, 0)
+shape = SubResource("CircleShape2D_1dk10")
+
+[node name="Perception" type="Area2D" parent="." unique_id=50762821]
+collision_layer = 0
+collision_mask = 4
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Perception" unique_id=566373058]
+position = Vector2(541, 0)
+shape = SubResource("CircleShape2D_l6y4g")
+
+[node name="StatesTimer" type="Timer" parent="." unique_id=1293705181]
+wait_time = 0.5
+one_shot = true
+
+[node name="StateLabel" type="Label" parent="." unique_id=1687006630]
+top_level = true
+z_index = 100
+offset_left = -26.0
+offset_top = -60.0
+offset_right = 32.0
+offset_bottom = -11.0
+size_flags_vertical = 8
+text = "[status]
+heat"
+
+[node name="MsgSyncTimer" type="Timer" parent="." unique_id=1648102991]
+wait_time = 0.1
+autostart = true
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="timeout" from="StatesTimer" to="." method="_on_states_timer_timeout"]
+[connection signal="timeout" from="MsgSyncTimer" to="." method="_on_msg_sync_timer_timeout"]

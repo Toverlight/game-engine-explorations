@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\engine">
+      <UniqueIdentifier>{1570d9dc-13c6-4b28-8780-63c38c7ae3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\calc">
+      <UniqueIdentifier>{e3f19cf9-9fe5-4b78-b825-2a6d345a93e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\layout">
+      <UniqueIdentifier>{009040ee-768d-4616-ae0f-750aac669577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\scene">
+      <UniqueIdentifier>{30cd4bac-a2fd-4c4b-a8ab-a322fe4e9946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\project">
+      <UniqueIdentifier>{bad50520-735d-4dd0-8c88-48240e2e1081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\extension">
+      <UniqueIdentifier>{d9953014-32cc-44a5-a1d3-ed93d8fe0628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\deplicated">
+      <UniqueIdentifier>{921fbfc9-7a98-4b59-9429-309c81e6a913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\layout\button">
+      <UniqueIdentifier>{338629d4-e3a7-4498-8e62-e44ee98474d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\data_model">
+      <UniqueIdentifier>{de2ecfc3-6ce3-417e-823e-22f8eb122609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\data_model\object_model">
+      <UniqueIdentifier>{a87befea-9777-49d1-8c86-fab502377740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\data_model\component_model">
+      <UniqueIdentifier>{6d488913-42d4-4e52-9b81-d001ecd3de18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\data_model\tile_map_model">
+      <UniqueIdentifier>{f54164f5-b67c-47da-a297-c4e2eda6045e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sqlitelib">
+      <UniqueIdentifier>{30397355-6f00-4403-9293-196a6be8d80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\scene\editor">
+      <UniqueIdentifier>{8beb6b35-69ce-4c2e-9e70-f8b8ce0c5b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\project\CivilizationSimulator">
+      <UniqueIdentifier>{5e370e1a-12bc-470c-8cd9-b2a4b900ce83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\project\CivilizationSimulator\algorithm">
+      <UniqueIdentifier>{c6a046b4-19b7-4ce6-a0aa-9d6d1e22034f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\structs">
+      <UniqueIdentifier>{5baeace7-dadb-4418-90de-758aa5b0661c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="window_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="var_g.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_set.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="image_button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rect_button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tile_map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="layout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="database_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\sqlite3.c">
+      <Filter>源文件\sqlitelib</Filter>
+    </ClCompile>
+    <ClCompile Include="tile_map_editor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="text_field.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scroll_list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test222.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\engine\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\engine\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件\engine\calc</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>头文件\engine\layout\button</Filter>
+    </ClInclude>
+    <ClInclude Include="image_button.h">
+      <Filter>头文件\engine\layout\button</Filter>
+    </ClInclude>
+    <ClInclude Include="animation_button.h">
+      <Filter>头文件\engine\layout\button</Filter>
+    </ClInclude>
+    <ClInclude Include="layout.h">
+      <Filter>头文件\engine\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_set.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="var_g.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="window_manager.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="windowplus.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>头文件\project</Filter>
+    </ClInclude>
+    <ClInclude Include="ex_easyx.h">
+      <Filter>头文件\engine\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="tick.h">
+      <Filter>头文件\engine\deplicated</Filter>
+    </ClInclude>
+    <ClInclude Include="test_scene.h">
+      <Filter>头文件\project</Filter>
+    </ClInclude>
+    <ClInclude Include="rect_button.h">
+      <Filter>头文件\engine\layout\button</Filter>
+    </ClInclude>
+    <ClInclude Include="timer_precision_guard.h">
+      <Filter>头文件\engine\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_1.h">
+      <Filter>头文件\project</Filter>
+    </ClInclude>
+    <ClInclude Include="colorful_button.h">
+      <Filter>头文件\engine\layout\button</Filter>
+    </ClInclude>
+    <ClInclude Include="space_filler.h">
+      <Filter>头文件\engine\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>头文件\project</Filter>
+    </ClInclude>
+    <ClInclude Include="database_manager.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_map_model.h">
+      <Filter>头文件\engine\data_model\tile_map_model</Filter>
+    </ClInclude>
+    <ClInclude Include="id2what_model.h">
+      <Filter>头文件\engine\data_model\tile_map_model</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\sqlite3.h">
+      <Filter>源文件\sqlitelib</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_map_editor.h">
+      <Filter>头文件\engine\scene\editor</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_map.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="text_field.h">
+      <Filter>头文件\engine\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll_list.h">
+      <Filter>头文件\engine\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="slider.h">
+      <Filter>头文件\engine\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="test222.h">
+      <Filter>头文件\project</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>头文件\project\CivilizationSimulator</Filter>
+    </ClInclude>
+    <ClInclude Include="perlin_noise.h">
+      <Filter>头文件\project\CivilizationSimulator\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_scene.h">
+      <Filter>头文件\project\CivilizationSimulator</Filter>
+    </ClInclude>
+    <ClInclude Include="RGB_t.h">
+      <Filter>头文件\engine\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="s_world.h">
+      <Filter>头文件\project\CivilizationSimulator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\sqlite3.def">
+      <Filter>源文件\sqlitelib</Filter>
+    </None>
+    <None Include="lib\sqlite3.exp">
+      <Filter>源文件\sqlitelib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\sqlite3.lib">
+      <Filter>源文件\sqlitelib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

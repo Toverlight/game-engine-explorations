@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://op3d7tnjpjs1"]
+
+[ext_resource type="Texture2D" uid="uid://dua1xrrpgdcvn" path="res://assets/images/fb364.png" id="2_16tco"]
+[ext_resource type="Script" uid="uid://1eo5ecvo8syh" path="res://small_fish.gd" id="2_bd3lg"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_axjkk"]
+radius = 16.141155
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hsnte"]
+radius = 450.0
+
+[node name="SmallFish" type="Area2D" unique_id=1314908325 groups=["small_fishes"]]
+position = Vector2(-3, 0)
+collision_layer = 4
+collision_mask = 6
+script = ExtResource("2_bd3lg")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=793057501]
+texture_filter = 1
+rotation = 0.7853982
+scale = Vector2(1.4999999, 1.4999999)
+texture = ExtResource("2_16tco")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=719638662]
+position = Vector2(3, 0)
+rotation = -1.5707964
+shape = SubResource("CircleShape2D_axjkk")
+
+[node name="Perception" type="Area2D" parent="." unique_id=1010009395]
+position = Vector2(236, 0)
+collision_layer = 0
+collision_mask = 14
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Perception" unique_id=206040894]
+position = Vector2(-63, 0)
+shape = SubResource("CircleShape2D_hsnte")
+
+[node name="StatesTimer" type="Timer" parent="." unique_id=1398106176]
+wait_time = 0.5
+one_shot = true
+
+[node name="FleeTimer" type="Timer" parent="." unique_id=1633160043]
+one_shot = true
+
+[node name="StateLabel" type="Label" parent="." unique_id=245215801]
+top_level = true
+z_index = 100
+offset_left = -26.0
+offset_top = -60.0
+offset_right = 32.0
+offset_bottom = -11.0
+size_flags_vertical = 8
+text = "[status]
+heat"
+
+[node name="MsgSyncTimer" type="Timer" parent="." unique_id=1022525359]
+wait_time = 0.1
+autostart = true
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="timeout" from="StatesTimer" to="." method="_on_states_timer_timeout"]
+[connection signal="timeout" from="FleeTimer" to="." method="_on_flee_timer_timeout"]
+[connection signal="timeout" from="MsgSyncTimer" to="." method="_on_msg_sync_timer_timeout"]

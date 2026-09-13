@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://1dgoeagp7hf0"]
+
+[ext_resource type="Script" uid="uid://d3o3ydtfknvhw" path="res://world.gd" id="1_f3sb7"]
+[ext_resource type="PackedScene" uid="uid://mayqvmwhjo54" path="res://info_panel.tscn" id="2_aqk2v"]
+[ext_resource type="PackedScene" uid="uid://bd784rwmjnfct" path="res://normal_camera.tscn" id="3_aqk2v"]
+[ext_resource type="PackedScene" uid="uid://btebsmlmmjhy7" path="res://tile_cursor.tscn" id="3_tlwt5"]
+[ext_resource type="Shader" uid="uid://the1qo81h87f" path="res://shaders/world.gdshader" id="5_036b0"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dwbse"]
+shader = ExtResource("5_036b0")
+
+[node name="World" type="Node2D" unique_id=1357384427]
+script = ExtResource("1_f3sb7")
+info_panel_scene = ExtResource("2_aqk2v")
+vapor_advect_rate = 0.6
+orographic_condense_strength = 0.4
+
+[node name="MapDisplayNode" type="ColorRect" parent="." unique_id=63261108]
+material = SubResource("ShaderMaterial_dwbse")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TileCursor" parent="." unique_id=1957941158 instance=ExtResource("3_tlwt5")]
+
+[node name="NormalCamera" parent="." unique_id=1645392959 instance=ExtResource("3_aqk2v")]

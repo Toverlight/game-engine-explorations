@@ -1,0 +1,12 @@
+**/.vscode/
+**/.cache/
+**/.trash/
+**/.vs/
+**/.mvn/
+**/.idea/
+**/target/
+**/*.iml
+**/.clangd
+
+**/*.exe
+**/*.pdb
