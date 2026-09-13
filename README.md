@@ -12,7 +12,7 @@ A simple demo simulating *Boids* effect, applying to small fishes.
 
 From the video, you can see small fishes developping complex behaviours.
 
-<video src="Dev_Games/videos/boids.mp4" width="600" controls></video>
+<video src="https://github.com/user-attachments/assets/8ca6e1f3-fc8a-4224-8ed2-9c3a964540ea" width="600" controls></video>
 
 The algorithm is composed of three basic elements:
 
@@ -28,7 +28,7 @@ A simple demo simulating Terrain generation and water erosion, forming a square 
 
 From the video, you can see a large generated world terrain pixel map that somewhat resembles reality. The panel HUD shows the conditions considered in the simulation (some of them hasn't been applied yet).
 
-<video src="Dev_Games/videos/terrain.mp4" width="600" controls></video>
+<video src="https://github.com/user-attachments/assets/ce18e648-dcf0-4071-a893-1a2bc15d3b07" width="600" controls></video>
 
 The simulation contains two parts: *terrain* and *erosion*.
 
