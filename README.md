@@ -38,12 +38,58 @@ The *erosion* happened each time I pressed R button down. It generates a large n
 
 The diverse ecos were just determined by those conditions, and with the help of GPU rendering, the shading process has been accelarated apparently.
 
+### Other Experiments
+
+An early experiment about *Perlin Noise*: <img src="Game_Engines/screenshots/Snipaste_2024-10-19_23-31-07.png" height="120" alt="perlin">
+
+My minecraft mod: <img src="Dev_Games/screenshots/Snipaste_2025-03-15_22-04-13.png" height="120" alt="mcmod">
+
 ### Other Games
 
-See this: [dev_games](Dev_Games/README.md)
+**Games** are as follows, with folder links and previews:
+
+- [ManRequires100s](Dev_Games/ManRequires100s): <img src="Dev_Games/screenshots/Snipaste_2024-01-21_19-23-27.png" height="160" alt="man">
+- [SweepBomb](Dev_Games/SweepBomb): <img src="Dev_Games/screenshots/Snipaste_2024-02-10_12-49-27.png" height="160" alt="bomb">
+- [BombHall](Dev_Games/BombHall): <img src="Dev_Games/screenshots/Snipaste_2024-02-18_18-30-10.png" height="160" alt="hall">
+- [植物明星大乱斗 *(following-tutorial)*](Dev_Games/植物明星大乱斗)
+- [Flyaway](Dev_Games/Flyaway): <img src="Dev_Games/screenshots/Snipaste_2025-03-27_20-16-31.png" height="160" alt="fly">
+- [GhostEscape *(following-tutorial)*](Dev_Games/GhostEscape): <img src="Dev_Games/screenshots/Snipaste_2025-04-17_20-42-00.png" height="160" alt="ghost">
+- [MapleCraft](Dev_Games/bevy-maple-craft): <img src="Dev_Games/screenshots/Snipaste_2026-06-07_23-20-16.png" height="160" alt="craft">
+
+See also: [dev_games](Dev_Games/README.md) (TODO organizing now...)
 
 ## Game Engines
 
-TODO organizing...
+*The past five **game engines** I've made are all semi-finished.*
 
-See this: [engines](Game_Engines/README.md)
+---
+
+My first game engine was written in C++, see folder here: [2dRPG](Game_Engines/2dRPG)
+
+**Effect:** <img src="Game_Engines/screenshots/Snipaste_2024-09-15_23-08-15.png" width="200" alt="2dRPG">
+
+---
+
+The second generation was written in Java, see folder here: [RPG_Test](Game_Engines/RPG_Test)
+
+---
+
+The third generation was written in Java, see folder here: [EngineEditor](Game_Engines/EngineEditor)
+
+**Effect:** <img src="Game_Engines/screenshots/Snipaste_2025-03-01_23-21-06.png" height="100" alt="particles"> <img src="Game_Engines/screenshots/Snipaste_2025-03-03_00-11-58.png" height="100" alt="pseudo-light">
+
+---
+
+The fourth generation was written in C++17, see repo here: [SkyEngine/LazyEngine](https://github.com/Toverlight/sky-engine)
+
+**Effect:** <img src="Game_Engines/screenshots/Snipaste_2025-05-24_22-25-59.png" height="120" alt="koishi"> <img src="Game_Engines/screenshots/Snipaste_2025-11-14_12-37-12.png" height="120" alt="lazy">
+
+---
+
+The fifth generation was written in C++20, see repo here: [(outdated version) MapleLeaf](https://github.com/Toverlight/old-maple-leaf)
+
+**Effect:** <img src="Game_Engines/screenshots/Snipaste_2026-03-10_22-02-35.png" width="160" alt="colorful">
+
+---
+
+See also: [engines](Game_Engines/README.md) (TODO organizing now...)
