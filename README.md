@@ -54,9 +54,9 @@ My minecraft mod: <img src="Dev_Games/screenshots/Snipaste_2025-03-15_22-04-13.p
 - [植物明星大乱斗 *(following-tutorial)*](Dev_Games/植物明星大乱斗)
 - [Flyaway](Dev_Games/Flyaway): <img src="Dev_Games/screenshots/Snipaste_2025-03-27_20-16-31.png" height="160" alt="fly">
 - [GhostEscape *(following-tutorial)*](Dev_Games/GhostEscape): <img src="Dev_Games/screenshots/Snipaste_2025-04-17_20-42-00.png" height="160" alt="ghost">
-- [MapleCraft](Dev_Games/bevy-maple-craft): <img src="Dev_Games/screenshots/Snipaste_2026-06-07_23-20-16.png" height="160" alt="craft">
+- [MapleCraft *(semi-finished)*](Dev_Games/bevy-maple-craft): <img src="Dev_Games/screenshots/Snipaste_2026-06-07_23-20-16.png" height="160" alt="craft">
 
-See also: [dev_games](Dev_Games/README.md) (TODO organizing now...)
+See also: [dev_games](Dev_Games/README.md) *(TODO organizing now...)*
 
 ## Game Engines
 
@@ -92,4 +92,4 @@ The fifth generation was written in C++20, see repo here: [(outdated version) Ma
 
 ---
 
-See also: [engines](Game_Engines/README.md) (TODO organizing now...)
+See also: [engines](Game_Engines/README.md) *(TODO organizing now...)*
